@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" name="MyApp" packages="">
+    <Appenders>
+        <RollingFile name="RollingFile" fileName="log/drilldown.log"
+                     filePattern="log/$${date:yyyy-MM}/drilldown-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout>
+                <Pattern>[%p] %d %c %M - %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,16 @@
+[INFO] 2022-12-09 04:23:09,968 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-09 04:24:12,084 com.drilldawn.util.EWrapperImpl error - Error. Id: -1, Code: 502, Msg: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+
+[ERROR] 2022-12-09 04:24:13,097 com.drilldawn.util.EWrapperImpl error - Error. Id: -1, Code: 504, Msg: Not connected
+
+[ERROR] 2022-12-09 04:24:13,098 com.drilldawn.controller.ConfigScreen lambda$1 - Connection Failed 
+[INFO] 2022-12-09 05:09:35,639 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-09 05:39:42,801 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-09 05:39:57,648 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-09 05:58:02,878 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-09 05:58:07,991 com.drilldawn.util.EWrapperImpl error - Error. Id: -1, Code: 502, Msg: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+
+[ERROR] 2022-12-09 05:58:08,996 com.drilldawn.util.EWrapperImpl error - Error. Id: -1, Code: 504, Msg: Not connected
+
+[ERROR] 2022-12-09 05:58:08,997 com.drilldawn.controller.ConfigScreen lambda$1 - Connection Failed 
+[INFO] 2022-12-09 08:53:33,455 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.

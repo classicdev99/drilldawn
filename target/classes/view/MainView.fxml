@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.drilldawn.controller.MainViewController">
+   <children>
+      <SplitPane dividerPositions="0.5577889447236181" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="188.0" prefWidth="612.0">
+               <children>
+                  <TextArea prefHeight="147.0" prefWidth="578.0" AnchorPane.bottomAnchor="32.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="40.0" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="SQL Query Filter" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="272.0" layoutY="193.0" mnemonicParsing="false" onAction="#onSubmitButtonClick" text="Submit" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="272.0" AnchorPane.rightAnchor="272.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TableView fx:id="filterResultTable" prefHeight="272.0" prefWidth="600.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0">
+                    <columns>
+                        <TableColumn fx:id="idRootCol" prefWidth="75.0" text="ID Root ">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="idRoot" />
+                            </cellValueFactory>
+                        </TableColumn>
+                      <TableColumn fx:id="securityTypeCol" prefWidth="75.0" text="Security Type">
+                          <cellValueFactory>
+                              <PropertyValueFactory property="securityType" />
+                          </cellValueFactory>
+                      </TableColumn>
+                        <TableColumn fx:id="symbolCol" prefWidth="75.0" text="Symbol">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="symbol" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="isinCol" prefWidth="75.0" text="ISIN">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="isin" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="descriptionCol" prefWidth="75.0" text="Description/Name">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="description" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="sectorCol" prefWidth="75.0" text="Sector">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="sector" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="industryCol" prefWidth="75.0" text="Industry">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="industry" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="initialCol" prefWidth="75.0" text="Initial">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="initial" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="maintenanceCol" prefWidth="75.0" text="Maintenance">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="maintenance" />
+                            </cellValueFactory>
+                        </TableColumn>
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+                  <Label alignment="CENTER" text="Filter Results " AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
