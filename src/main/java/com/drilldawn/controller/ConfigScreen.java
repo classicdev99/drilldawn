@@ -13,21 +13,20 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import javafx.scene.image.Image;
-import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.FileChooser;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.io.IOException;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.net.URL;
-import java.util.Objects;
 import java.util.ResourceBundle;
+import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class ConfigScreen implements Initializable {
@@ -39,17 +38,21 @@ public class ConfigScreen implements Initializable {
     private TextField accountNumInp, hostInp, clientIdInp, portInp;
 
     @FXML
+    private TextArea fileContent;
+
+    @FXML
     private Label errorMsg;
 
     private APIConfig configPort;
     private APIConnector apiConnector;
     private EClientSocket client;
     private APIConnectionService apiConnectionService;
+    private Stage rootStage;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         apiConnector = new APIConnector();
-        dbHandler = new DBHandler();
+        dbHandler = DBHandler.getInstance();
         dbHandler.createTables();
         getPreviousConfigs();
     }
@@ -92,8 +95,28 @@ public class ConfigScreen implements Initializable {
             openMainView();
 
         }
+    }
 
+    @FXML
+    public void onOpenFile(){
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setTitle("Import new data");
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("CSV Files", "*.csv"));
+        fileChooser.setInitialDirectory(new File("."));
+        File file = fileChooser.showOpenDialog(rootStage);
+        if (file != null) {
 
+            try (Scanner input = new Scanner(file)) {
+                while (input.hasNextLine()) {
+                    fileContent.appendText(input.nextLine());
+                }
+            } catch (FileNotFoundException ex) {
+                ex.printStackTrace();
+}
+        // do things
+        } else {
+        // no file got selected
+        }
     }
 
     private void openMainView(){
@@ -106,6 +129,7 @@ public class ConfigScreen implements Initializable {
             stage.setScene(new Scene(root1));
             stage.onCloseRequestProperty().setValue(e -> Platform.exit());
             stage.show();
+            rootStage = stage;
         }catch (Exception e){
             logger.error(e.getMessage());
             e.printStackTrace();

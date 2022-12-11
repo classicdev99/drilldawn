@@ -11,6 +11,14 @@
         <junit.version>5.7.1</junit.version>
     </properties>
     <dependencies>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.14.1</version>
+        </dependency>
+
+
         <!--        <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
@@ -131,6 +139,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
     </dependencies>
     <build>
         <plugins>

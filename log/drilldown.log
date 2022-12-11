@@ -1,16 +1,53 @@
-[INFO] 2022-12-09 04:23:09,968 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[ERROR] 2022-12-09 04:24:12,084 com.drilldawn.util.EWrapperImpl error - Error. Id: -1, Code: 502, Msg: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
+[INFO] 2022-12-11 01:38:38,008 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 01:38:44,159 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 01:39:30,163 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 01:39:34,560 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 01:59:54,999 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 01:59:59,497 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 02:06:54,101 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 02:06:58,282 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 02:08:11,311 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 02:08:15,577 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 10:42:57,453 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 10:43:03,853 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 13:37:29,934 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 13:37:37,107 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 13:41:31,968 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 13:41:39,499 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 13:42:26,962 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 13:42:32,659 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 13:53:13,023 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 13:55:55,469 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 13:55:59,451 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 14:08:31,925 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:08:36,345 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 14:26:08,604 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-11 14:26:08,642 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: 
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/MainView.fxml:17
 
-[ERROR] 2022-12-09 04:24:13,097 com.drilldawn.util.EWrapperImpl error - Error. Id: -1, Code: 504, Msg: Not connected
-
-[ERROR] 2022-12-09 04:24:13,098 com.drilldawn.controller.ConfigScreen lambda$1 - Connection Failed 
-[INFO] 2022-12-09 05:09:35,639 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-09 05:39:42,801 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-09 05:39:57,648 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-09 05:58:02,878 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[ERROR] 2022-12-09 05:58:07,991 com.drilldawn.util.EWrapperImpl error - Error. Id: -1, Code: 502, Msg: Couldn't connect to TWS. Confirm that "Enable ActiveX and Socket Clients" is enabled and connection port is the same as "Socket Port" on the TWS "Edit->Global Configuration...->API->Settings" menu. Live Trading ports: TWS: 7496; IB Gateway: 4001. Simulated Trading ports for new installations of version 954.1 or newer: TWS: 7497; IB Gateway: 4002
-
-[ERROR] 2022-12-09 05:58:08,996 com.drilldawn.util.EWrapperImpl error - Error. Id: -1, Code: 504, Msg: Not connected
-
-[ERROR] 2022-12-09 05:58:08,997 com.drilldawn.controller.ConfigScreen lambda$1 - Connection Failed 
-[INFO] 2022-12-09 08:53:33,455 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:26:30,040 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:30:35,053 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:30:39,254 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 14:31:04,892 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:31:08,486 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 14:32:58,961 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:33:03,109 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 14:35:52,675 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:35:56,602 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 14:37:03,796 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:37:25,762 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 14:39:50,529 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:39:54,280 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 14:42:24,651 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:42:28,432 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 14:44:54,928 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:45:00,392 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 14:49:15,512 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:49:18,999 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 14:55:39,876 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:55:44,391 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 14:57:34,980 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:57:39,886 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 14:58:24,889 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:59:33,639 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 14:59:39,632 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.

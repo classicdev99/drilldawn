@@ -76,6 +76,7 @@ com\drilldawn\ib\controller\ApiController$ITradeReportHandler.class
 com\drilldawn\ib\client\Types$SecIdType.class
 com\drilldawn\ib\controller\ApiController$ITickNewsHandler.class
 com\drilldawn\ib\client\FamilyCode.class
+com\drilldawn\controller\ImportDatabaseScreen.class
 com\drilldawn\ib\controller\Position.class
 com\drilldawn\ib\client\OrderConditionType.class
 com\drilldawn\ib\client\Types$TimeInForce.class

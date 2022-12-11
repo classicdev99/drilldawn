@@ -18,6 +18,7 @@ module drilldawn {
     requires eu.mihosoft.monacofx;
     requires java.base;
 	requires javafx.base;
+    requires com.fasterxml.jackson.databind;
 
     opens com.drilldawn.controller to javafx.fxml;
     opens com.drilldawn.ib.client to javafx.fxml;
