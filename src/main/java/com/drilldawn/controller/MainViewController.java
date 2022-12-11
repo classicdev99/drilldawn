@@ -37,7 +37,7 @@ public class MainViewController implements Initializable {
 //        results.add(filterResult);
 //        filterResults = FXCollections.observableArrayList(results);
 //        filterResultTable.setItems(filterResults);
-
+        String str = "str";
     }
 
     @FXML
