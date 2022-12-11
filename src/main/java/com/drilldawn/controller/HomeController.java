@@ -107,7 +107,11 @@ public class HomeController implements Initializable{
             dbFileName = file.getPath();
             dbFileName = dbFileName.replace("\\", "\\\\");
             dbHandler.connectCustomDb(dbFileName);
-            // MainViewController mViewController = MainViewController.getInstance();
+            MainViewController mViewController = MainViewController.getInstance();
+            if(dbHandler.checkCustomConnectivity())
+            {
+                mViewController.addTableNames();
+            }
             // mViewController.setTableColumns();
             // mViewController.setTableItems();
         }

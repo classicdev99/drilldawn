@@ -40,8 +40,14 @@
       </Label>
       <HBox alignment="CENTER_RIGHT" GridPane.columnIndex="1">
          <children>
-            <Button mnemonicParsing="false" text="Import DB" onAction="#onImportDBClicked"/>
-            <Button mnemonicParsing="false" onAction="#onImportJsonClicked" text="Import Json" />
+            <Button mnemonicParsing="false" onAction="#onImportDBClicked" text="Import DB">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin></Button>
+            <Button mnemonicParsing="false" onAction="#onImportJsonClicked" text="Import Json">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin></Button>
             <Button mnemonicParsing="false" onAction="#onSettingsButtonClicked" text="Settings">
                <HBox.margin>
                   <Insets right="15.0" />

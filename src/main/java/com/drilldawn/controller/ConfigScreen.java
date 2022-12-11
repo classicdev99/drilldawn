@@ -91,7 +91,6 @@ public class ConfigScreen implements Initializable {
 //                logger.error(e.getMessage());
 //            }
             
-
             openMainView();
 
         }

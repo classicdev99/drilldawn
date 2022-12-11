@@ -12,6 +12,7 @@ import org.apache.logging.log4j.Logger;
 import java.io.Console;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Collection;
 
 public class DBHandler {
 
@@ -156,6 +157,24 @@ public class DBHandler {
 
     }
 
+    public ObservableList<String> getTableNames(){
+        DatabaseMetaData metaData;
+        ObservableList<String> tableNames = FXCollections.observableArrayList();
+        try {
+            metaData = customCon.getMetaData();
+            String[] types = {"TABLE"};
+            //Retrieving the columns in the database
+            ResultSet tables = metaData.getTables(null, null, "%", types);
+            while (tables.next()) {
+                tableNames.add((tables.getString("TABLE_NAME")));
+            }
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        return tableNames;
+    }
+
     public ResultSetMetaData getAllColumnFromQuery(String query){
         ObservableList<ObservableList> data = FXCollections.observableArrayList();
         //String SQL = "SELECT * from albums";
@@ -188,7 +207,7 @@ public class DBHandler {
                     //Iterate Column
                     row.add(rs.getString(i));
                 }
-                System.out.println("Row [1] added " + row);
+                //System.out.println("Row [1] added " + row);
                 data.add(row);
             }
         } catch (SQLException e) {

@@ -53,3 +53,30 @@
 [INFO] 2022-12-11 14:59:39,632 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
 [INFO] 2022-12-11 15:50:38,132 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
 [INFO] 2022-12-11 15:50:41,747 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 17:06:13,885 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 17:06:33,535 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 17:13:14,822 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 17:43:13,439 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 17:43:17,111 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 17:47:21,858 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 17:47:25,523 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 17:50:30,207 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 17:50:35,504 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 17:50:59,592 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 17:51:04,802 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 17:52:38,917 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 17:52:44,079 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 17:54:05,713 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 17:55:16,244 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 17:55:23,979 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 17:55:51,261 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 18:01:13,061 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 18:01:18,923 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 18:03:39,977 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 18:03:44,845 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 18:03:47,035 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 18:03:49,835 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 18:04:25,863 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-11 18:04:30,393 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 18:04:38,475 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-11 18:05:58,345 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.

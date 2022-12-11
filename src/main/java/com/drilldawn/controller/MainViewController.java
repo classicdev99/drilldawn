@@ -9,14 +9,17 @@ import javafx.beans.value.ObservableValue;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TableColumn.CellDataFeatures;
+import javafx.scene.input.MouseEvent;
 
 import java.net.URL;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
+import java.util.Arrays;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.util.Callback;
@@ -27,6 +30,8 @@ public class MainViewController implements Initializable  {
     private TextArea queryText;
     @FXML
     public TableView<ObservableList> filterResultTable;
+    @FXML
+    private ComboBox tablesCombo;
 
         
     private static MainViewController INSTANCE = null;
@@ -55,6 +60,12 @@ public class MainViewController implements Initializable  {
         MainViewController.INSTANCE = this;
         dbHandler = DBHandler.getInstance();
         dialogManager = DialogManager.getInstance();
+        //tablesCombo.getItems().addAll("A","B","C");comboBox.setOnAction((event) -> {
+            tablesCombo.setOnAction((event) -> {
+                int selectedIndex = tablesCombo.getSelectionModel().getSelectedIndex();
+                Object selectedItem = tablesCombo.getSelectionModel().getSelectedItem();
+                updateQueryText(selectedItem.toString());
+            });
     }
 
     @FXML
@@ -68,6 +79,12 @@ public class MainViewController implements Initializable  {
             dialogManager.showAlert("DB Error", "Database not connected");
         }
         setTableColumns();
+    }
+
+    public void addTableNames(){
+        tablesCombo.getItems().clear();
+        tablesCombo.getItems().addAll(dbHandler.getTableNames());
+        tablesCombo.getSelectionModel().select(0);
     }
 
     public void setTableColumns() {
@@ -100,5 +117,10 @@ public class MainViewController implements Initializable  {
 
     public void setTableItems() {
         filterResultTable.setItems(dbHandler.getDataFromQuery(queryText.getText()));
+    }
+
+    public void updateQueryText(String tableName){
+        String query = "SELECT * FROM " + tableName;
+        queryText.setText(query);
     }
 }
