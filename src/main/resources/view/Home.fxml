@@ -25,9 +25,9 @@
    <children>
       <TabPane fx:id="mainTabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" GridPane.columnSpan="2147483647" GridPane.rowIndex="1" GridPane.rowSpan="2147483647">
         <tabs>
-          <Tab fx:id="queryTab" text="Query" />
-          <Tab fx:id="chartsTab" text="Charts" />
-          <Tab fx:id="editorTab" text="Editor" />
+          <Tab fx:id="queryTab" text="Spreadsheet" />
+          <Tab fx:id="editorTab" text="Formula" />
+          <Tab fx:id="chartsTab" text="Plot" />
         </tabs>
       </TabPane>
       <Label text="Drilldawn">

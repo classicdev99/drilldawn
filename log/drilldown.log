@@ -1,82 +1,81 @@
-[INFO] 2022-12-11 01:38:38,008 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 01:38:44,159 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 01:39:30,163 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 01:39:34,560 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 01:59:54,999 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 01:59:59,497 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 02:06:54,101 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 02:06:58,282 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 02:08:11,311 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 02:08:15,577 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 10:42:57,453 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 10:43:03,853 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 13:37:29,934 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 13:37:37,107 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 13:41:31,968 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 13:41:39,499 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 13:42:26,962 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 13:42:32,659 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 13:53:13,023 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 13:55:55,469 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 13:55:59,451 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 14:08:31,925 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:08:36,345 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 14:26:08,604 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[ERROR] 2022-12-11 14:26:08,642 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: 
-/E:/Work/1208/javafx/Drilldawn/target/classes/view/MainView.fxml:17
+[INFO] 2022-12-13 13:28:58,205 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 13:38:49,466 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 14:48:09,665 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 14:48:38,713 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 14:50:30,904 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 14:52:43,891 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 14:53:25,984 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 14:57:53,831 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 15:05:55,906 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 15:10:27,689 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 15:25:48,835 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 15:26:00,230 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 15:36:18,295 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 15:37:45,463 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 15:41:55,419 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 15:42:20,615 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 16:02:59,903 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-13 16:03:00,053 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: No controller specified.
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/Editor.fxml:18
 
-[INFO] 2022-12-11 14:26:30,040 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:30:35,053 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:30:39,254 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 14:31:04,892 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:31:08,486 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 14:32:58,961 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:33:03,109 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 14:35:52,675 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:35:56,602 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 14:37:03,796 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:37:25,762 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 14:39:50,529 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:39:54,280 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 14:42:24,651 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:42:28,432 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 14:44:54,928 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:45:00,392 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 14:49:15,512 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:49:18,999 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 14:55:39,876 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:55:44,391 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 14:57:34,980 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:57:39,886 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 14:58:24,889 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:59:33,639 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 14:59:39,632 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 15:50:38,132 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 15:50:41,747 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 17:06:13,885 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 17:06:33,535 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 17:13:14,822 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 17:43:13,439 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 17:43:17,111 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 17:47:21,858 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 17:47:25,523 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 17:50:30,207 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 17:50:35,504 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 17:50:59,592 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 17:51:04,802 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 17:52:38,917 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 17:52:44,079 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 17:54:05,713 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 17:55:16,244 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 17:55:23,979 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 17:55:51,261 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 18:01:13,061 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 18:01:18,923 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 18:03:39,977 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 18:03:44,845 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 18:03:47,035 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 18:03:49,835 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 18:04:25,863 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
-[INFO] 2022-12-11 18:04:30,393 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 18:04:38,475 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
-[INFO] 2022-12-11 18:05:58,345 com.drilldawn.util.Connector getConnection - Connection to Custom SQLite has been established.
+[INFO] 2022-12-13 16:04:52,905 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-13 16:04:53,114 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: No controller specified.
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/Editor.fxml:17
+
+[INFO] 2022-12-13 16:07:12,900 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-13 16:07:13,053 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: No controller specified.
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/Editor.fxml:17
+
+[INFO] 2022-12-13 16:10:56,190 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-13 16:10:56,336 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: No controller specified.
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/Editor.fxml:17
+
+[INFO] 2022-12-13 16:12:12,300 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-13 16:12:12,448 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: No controller specified.
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/Editor.fxml:17
+
+[INFO] 2022-12-13 16:12:57,275 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-13 16:12:57,416 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: No controller specified.
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/Editor.fxml:17
+
+[INFO] 2022-12-13 16:13:55,384 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-13 16:13:55,544 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: No controller specified.
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/Editor.fxml:17
+
+[ERROR] 2022-12-13 16:15:04,076 com.drilldawn.ib.controller.AdvisorUtil err - error [DF109948 / DF109948, DU109949 / DU109949, DU109950 / DU109950, DU110156 / DU110156, DU110157 / DU110157, DU110158 / DU110158]
+[INFO] 2022-12-13 16:17:15,389 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-13 16:17:15,532 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: No controller specified.
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/Editor.fxml:17
+
+[INFO] 2022-12-13 16:18:44,522 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-13 16:18:44,679 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: No controller specified.
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/Editor.fxml:17
+
+[INFO] 2022-12-13 16:19:08,024 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-13 16:19:08,178 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: No controller specified.
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/Editor.fxml:21
+
+[INFO] 2022-12-13 16:19:25,366 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-13 16:19:25,510 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: No controller specified.
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/Editor.fxml:18
+
+[INFO] 2022-12-13 16:20:38,443 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-13 16:20:38,610 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: No controller specified.
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/Editor.fxml:18
+
+[INFO] 2022-12-13 16:21:59,261 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[ERROR] 2022-12-13 16:21:59,435 com.drilldawn.controller.HomeController initialize - javafx.fxml.LoadException: No controller specified.
+/E:/Work/1208/javafx/Drilldawn/target/classes/view/Editor.fxml:18
+
+[INFO] 2022-12-13 16:22:22,857 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 16:23:17,536 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 16:26:13,410 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 16:26:37,369 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 16:27:58,273 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 16:29:14,565 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 16:30:47,467 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 16:37:02,017 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 17:07:01,849 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 17:08:36,892 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 17:10:55,720 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
+[INFO] 2022-12-13 17:16:06,073 com.drilldawn.util.Connector <clinit> - Connection to SQLite has been established.
