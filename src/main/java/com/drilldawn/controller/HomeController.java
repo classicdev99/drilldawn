@@ -15,6 +15,7 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.drilldawn.dialog.DialogManager;
 import com.drilldawn.util.DBHandler;
 
 import javafx.event.ActionEvent;
@@ -66,7 +67,7 @@ public class HomeController implements Initializable{
     @FXML
     private void onSettingsButtonClicked(ActionEvent event) {
     	try {
-          FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/ConfigScreen.fxml"));
+          FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/settings/Settings.fxml"));
           Parent root1 = fxmlLoader.load();
           Stage stage = new Stage();
           stage.initModality(Modality.APPLICATION_MODAL);

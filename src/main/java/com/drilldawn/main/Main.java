@@ -15,7 +15,7 @@ public class Main extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Home.fxml"));
         Parent root = loader.load();
         primaryStage.setTitle("Drilldawn");
-        Scene scene = new Scene(root, 800, 550);
+        Scene scene = new Scene(root, 1024,768);
         primaryStage.setScene(scene);
         primaryStage.setOnHidden(e -> {
             Platform.exit();

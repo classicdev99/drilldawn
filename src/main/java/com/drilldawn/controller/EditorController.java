@@ -29,6 +29,10 @@ import org.codehaus.commons.compiler.CompileException;
 import org.codehaus.janino.*;
 
 import com.drilldawn.dialog.DialogManager;
+import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.JsonNode;
+import com.mashape.unirest.http.Unirest;
+import com.mashape.unirest.http.exceptions.UnirestException;
 
 //import org.codehaus.janino.*;
 
@@ -137,5 +141,17 @@ public class EditorController implements Initializable {
             dialogManager.showAlert("Error", e.getMessage());
             e.printStackTrace();
         }
+        // try {
+        //     HttpResponse<JsonNode> apiResponse = Unirest.get("https://api.twelvedata.com/stocks").asJson();
+        //     handleResponse(apiResponse);
+
+        // } catch (UnirestException e) {
+        //     e.printStackTrace();
+        // }
+    }
+
+    public void handleResponse(HttpResponse<JsonNode> response)
+    {
+        dialogManager.showAlert(response.getBody().toString());
     }
 }

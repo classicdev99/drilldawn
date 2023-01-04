@@ -21,7 +21,9 @@ module drilldawn {
     requires com.fasterxml.jackson.databind;
     requires janino;
     requires commons.compiler;
+    requires unirest.java;
 
+    opens com.drilldawn.controller.settings to javafx.fxml;
     opens com.drilldawn.controller to javafx.fxml;
     opens com.drilldawn.ib.client to javafx.fxml;
     opens com.drilldawn.ib.controller to javafx.fxml;
@@ -31,6 +33,7 @@ module drilldawn {
     opens com.drilldawn.util.contracts to javafx.fxml;
     opens com.drilldawn.util to javafx.fxml;
 
+    exports com.drilldawn.controller.settings;
     exports com.drilldawn.controller;
     exports com.drilldawn.ib.client;
     exports com.drilldawn.ib.controller;

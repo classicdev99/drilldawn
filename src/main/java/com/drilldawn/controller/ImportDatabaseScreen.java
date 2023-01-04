@@ -45,7 +45,7 @@ public class ImportDatabaseScreen implements Initializable {
     private void onOpenButtonClicked(ActionEvent event) throws StreamReadException, DatabindException, IOException {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Import Json File");
-        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("CSV Files", "*.json"));
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("JSON Files", "*.json"));
         fileChooser.setInitialDirectory(new File("."));
 
         File file = fileChooser.showOpenDialog(rootStage);
@@ -122,7 +122,7 @@ public class ImportDatabaseScreen implements Initializable {
             fileContent.appendText(fieldName.toString());
             fileContent.appendText(" ");
             fieldList.add(fieldName.toString());
-    }
+        }
         fileContent.appendText("\n-Data Array:\n");
         for (JsonNode one : dataNode) {
             fieldIt = one.fieldNames();
