@@ -19,6 +19,7 @@ public class DBHandler {
     private static DBHandler instance = null;
     private  Connection con;
     private  Connection customCon;
+    private Connection dynamicCon;;
     private  final Logger logger = LogManager.getLogger(DBHandler.class);
 
 
@@ -37,6 +38,10 @@ public class DBHandler {
         customCon = CustomConnector.getConnection(path);
     }
     
+    public void createAndConnectDynamicDB(String path){
+        dynamicCon = CustomConnector.getConnection(path);
+    }
+
     public  void createTables() {
         String api = "CREATE TABLE IF NOT EXISTS api_config (\n"
                 + "	config_id INTEGER PRIMARY KEY NOT NULL,\n"
@@ -68,7 +73,7 @@ public class DBHandler {
         } 
     }
 
-    public  void createNewTable(String tableName, ArrayList<String> cols){
+    public void createNewTable(String tableName, ArrayList<String> cols){
         String databaseInfo = "CREATE TABLE IF NOT EXISTS " + tableName + " (\n"
             + "	id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ";
         for(var col : cols){
@@ -267,5 +272,51 @@ public class DBHandler {
 
     public  boolean checkCustomConnectivity(){
         return customCon != null;
+    }
+
+    public void createNewTableInDynamicDB(String tableName, ArrayList<String> cols){
+        String databaseInfo = "CREATE TABLE IF NOT EXISTS " + tableName + " (\n"
+            + "	id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ";
+        for(var col : cols){
+            databaseInfo += " ,\n";
+            databaseInfo += " " + col + " TEXT NOT NULL";
+        }
+        databaseInfo += "\n );";
+        try (Statement stmt = dynamicCon.createStatement()) {
+            stmt.execute(databaseInfo);
+        } catch (SQLException e) {
+            logger.error(e.getMessage());
+        } 
+    }
+
+    public  int insertTableDataInDynamicDB(String tableName, ArrayList<String> fieldList, ArrayList<String> valueList) {
+        if(fieldList.size() != valueList.size())
+            return -1;
+        String sql = " INSERT OR REPLACE INTO " + tableName + " (";
+
+        sql += fieldList.get(0);
+        int i = 1;
+        for(; i < fieldList.size(); i++){
+            sql += ", ";
+            var field = fieldList.get(i);
+            sql += field;
+        }
+        sql += ")\n VALUES(?";
+        for(i = 1; i < fieldList.size(); i++){
+            sql += ",?";
+        }
+        sql += ")";
+        int id = -1;
+        try (PreparedStatement stmt = dynamicCon.prepareStatement(sql)) {
+            for(i = 0 ; i < fieldList.size(); i++){
+                stmt.setString(i + 1, valueList.get(i));
+            }
+            id = stmt.executeUpdate();
+
+        } catch (SQLException e) {
+            logger.error(e);
+        }
+
+        return id;
     }
 }
